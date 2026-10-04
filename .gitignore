@@ -1,0 +1,17 @@
+node_modules
+dist
+.vercel
+
+# local environment and credentials
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+*.log
+
+# local generation transcripts and old website export
+/art/logs/
+/archive/

@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Seed to Cup — A Coffee Journal for National Coffee Day</title>
+  <meta name="description" content="The four-year journey of coffee, from a seed on a misty hillside to the cup in your hands. A coffee journal in six chapters for National Coffee Day, 29 September." />
+  <meta name="theme-color" content="#14110e" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="https://seed-to-cup.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Seed to Cup — A Coffee Journal" />
+  <meta property="og:description" content="The four-year journey of coffee, from a seed on a misty hillside to the cup in your hands. Happy National Coffee Day." />
+  <meta property="og:url" content="https://seed-to-cup.vercel.app/" />
+  <meta property="og:image" content="https://seed-to-cup.vercel.app/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://seed-to-cup.vercel.app/og.jpg" />
+  <link rel="preload" as="image" href="/img/hero-sky.webp" type="image/webp" />
+  <link rel="preload" as="image" href="/img/hero-ridge.webp" type="image/webp" />
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <p class="loader__mark">Seed <em>to</em> Cup</p>
+    <p class="loader__count"><span id="loaderCount">0</span>%</p>
+  </div>
+
+  <header class="nav">
+    <a class="nav__brand" href="#top" data-goto="#top">Seed <em>to</em> Cup</a>
+    <p class="nav__issue">A Coffee Journal &mdash; N&ordm; 09&middot;29</p>
+    <p class="nav__chapter" aria-live="polite"><span data-chapter-num>00</span><span class="nav__of">/ 06</span><span class="nav__name" data-chapter-name>Prologue</span></p>
+  </header>
+  <div class="progress" aria-hidden="true"><i></i></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <main>
+    <!-- ——— HERO ——— -->
+    <section class="hero" id="top" data-chapter="00" data-name="Prologue">
+      <div class="hero__stage">
+        <img class="hero__layer hero__sky" src="/img/hero-sky.webp" srcset="/img/hero-sky-sm.webp 960w, /img/hero-sky.webp 1672w" sizes="100vw" alt="" />
+        <h1 class="hero__title" aria-label="Seed to Cup"><span class="hero__word">Seed</span> <em class="hero__word">to</em> <span class="hero__word">Cup</span></h1>
+        <div class="hero__haze" aria-hidden="true"></div>
+        <div class="hero__layer hero__ridge"><img src="/img/hero-ridge.webp" srcset="/img/hero-ridge-sm.webp 960w, /img/hero-ridge.webp 1672w" sizes="100vw" alt="" /></div>
+        <img class="hero__layer hero__branch" src="/img/hero-branch.webp" srcset="/img/hero-branch-sm.webp 960w, /img/hero-branch.webp 1672w" sizes="100vw" alt="" />
+        <div class="hero__shade"></div>
+        <div class="hero__dim"></div>
+        <div class="hero__meta">
+          <p class="label">National Coffee Day<br />29 September 2026</p>
+          <p class="hero__lede">The four-year journey of coffee, from a seed on a misty hillside to the cup in your hands. Told in six chapters.</p>
+          <p class="label hero__cue">Scroll<i></i></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——— PROLOGUE ——— -->
+    <section class="prologue panel" data-chapter="00" data-name="Prologue">
+      <img class="float f-bean-1" data-speed="0.5" data-rot="40" src="/img/bean.webp" alt="" loading="lazy" />
+      <img class="float f-leaf-1" data-speed="0.25" data-rot="-18" src="/img/leaf.webp" alt="" loading="lazy" />
+      <img class="float f-bean-2" data-speed="0.9" data-rot="-70" src="/img/bean-2.webp" alt="" loading="lazy" />
+      <div class="wrap">
+        <p class="label prologue__label">Prologue</p>
+        <p class="statement" data-words>Every cup you drink began years earlier, as a seed pressed into dark soil on a mountainside near the equator. It was grown in shade, picked by hand, washed, dried, shipped across an ocean, roasted and ground &mdash; all for the <mark>three minutes it takes to brew.</mark> Today, on <mark>National Coffee Day</mark>, we follow it home.</p>
+        <dl class="stats">
+          <div class="stat" data-rise><dt>3&ndash;4</dt><dd>years from seed to a tree&rsquo;s first real harvest</dd></div>
+          <div class="stat" data-rise><dt>6&ndash;9</dt><dd>months from white blossom to ripe red cherry</dd></div>
+          <div class="stat" data-rise><dt>5:1</dt><dd>kilos of fresh cherries for one kilo of green coffee</dd></div>
+          <div class="stat" data-rise><dt>~2B</dt><dd>cups of coffee poured around the world every day</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ——— I. SEED ——— -->
+    <section class="chapter seed panel" id="seed" data-chapter="01" data-name="The Seed">
+      <div class="wrap grid">
+        <header class="ch-head seed__head">
+          <p class="label">Chapter I</p>
+          <h2 class="ch-title" data-split>The Seed</h2>
+          <p class="ch-intro" data-rise>Coffee begins as a seed &mdash; the very same green bean that, roasted, would end up in your grinder. Pressed into loose, shaded soil, it is in no hurry at all.</p>
+        </header>
+        <figure class="fig fig--port seed__fig1" data-reveal>
+          <div class="fig__frame"><img data-drift src="/img/seed.webp" srcset="/img/seed-sm.webp 640w, /img/seed.webp 1024w" sizes="(max-width: 760px) 100vw, 45vw" alt="A coffee seedling pushing out of dark soil, carrying its seed shell on top like a helmet" loading="lazy" /></div>
+          <figcaption><b>Fig. 01</b> The &lsquo;soldier&rsquo; stage. Around eight weeks in, the stem hauls the old seed shell up out of the soil like a helmet.</figcaption>
+        </figure>
+        <figure class="fig fig--land seed__fig2" data-speed="0.18" data-reveal>
+          <div class="fig__frame"><img data-drift src="/img/seedlings.webp" srcset="/img/seedlings-sm.webp 960w, /img/seedlings.webp 1536w" sizes="(max-width: 760px) 100vw, 40vw" alt="Rows of young coffee seedlings in nursery bags under shade netting" loading="lazy" /></div>
+          <figcaption><b>Fig. 02</b> Seedlings under shade netting, waiting for the rains.</figcaption>
+        </figure>
+        <div class="seed__text" data-rise>
+          <h3>The nursery</h3>
+          <p>For its first six months to a year the seedling lives in the half-light of a nursery, in a bag of soil not much bigger than a coffee tin. When the rains come it is carried up the hill and planted for good, usually beneath taller trees that keep it cool.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——— II. TREE ——— -->
+    <section class="chapter tree" id="tree" data-chapter="02" data-name="The Tree">
+      <div class="bloom">
+        <div class="bloom__stage">
+          <p class="label bloom__pre">Chapter II &middot; The Tree</p>
+          <figure class="bloom__fig"><img src="/img/bloom.webp" srcset="/img/bloom-sm.webp 960w, /img/bloom.webp 1672w" sizes="100vw" alt="Coffee branches covered in small white jasmine-like blossoms" loading="lazy" /></figure>
+          <div class="bloom__copy wrap">
+            <p class="label">Chapter II</p>
+            <h2 class="ch-title bloom__title">The Tree</h2>
+            <p class="bloom__line">A few days of blossom.</p>
+            <p class="bloom__body">Three or four years after planting, the first rains of the season bring the tree into flower. It covers itself in white, jasmine-scented blossoms, and each lasts only a few days before the fruit begins.</p>
+          </div>
+        </div>
+      </div>
+      <div class="panel ripen">
+        <img class="float f-cherry" data-speed="0.6" data-rot="25" src="/img/cherry.webp" alt="" loading="lazy" />
+        <div class="wrap grid">
+          <figure class="fig fig--port ripen__fig" data-reveal>
+            <div class="fig__frame"><img data-drift src="/img/cherries.webp" srcset="/img/cherries-sm.webp 640w, /img/cherries.webp 1024w" sizes="(max-width: 760px) 100vw, 40vw" alt="A branch of coffee cherries ripening from green to deep red" loading="lazy" /></div>
+            <figcaption><b>Fig. 03</b> One branch, every stage. Pickers will come back to it again and again.</figcaption>
+          </figure>
+          <div class="ripen__text">
+            <h3 class="ripen__title" data-split>Ripening</h3>
+            <p data-rise>Each flower becomes a cherry. Over six to nine months it swells and slowly turns from hard green to yellow, orange and finally a deep, glossy red. Only then is the seed inside ready &mdash; and a single branch almost never ripens all at once.</p>
+            <div class="scale" data-rise aria-label="Ripeness scale from green to crimson">
+              <div class="scale__bar"><i style="--c:#6f7d3a"></i><i style="--c:#b3a33a"></i><i style="--c:#c9722c"></i><i style="--c:#a8301f"></i><i style="--c:#6e1a1a"></i></div>
+              <div class="scale__labels"><span>Green</span><span>Yellow</span><span>Orange</span><span>Red</span><span>Crimson</span></div>
+              <p class="scale__pick">Pick here &uarr;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——— III. HARVEST ——— -->
+    <section class="chapter harvest" id="harvest" data-chapter="03" data-name="The Harvest">
+      <div class="harvest__stage">
+        <p class="harvest__ghost" aria-hidden="true">Harvest</p>
+        <div class="harvest__progress" aria-hidden="true"><span class="label">Pick</span><span class="label">Sort</span><span class="label">Dry</span><i></i></div>
+        <div class="harvest__track">
+          <div class="h-panel h-intro">
+            <p class="label">Chapter III</p>
+            <h2 class="ch-title">The Harvest</h2>
+            <p class="ch-intro">Ripe cherries don&rsquo;t wait. On most specialty farms they are picked by hand, one at a time, and pickers return to the same trees every week or two as the crop comes in.</p>
+          </div>
+          <figure class="h-panel fig h-fig h-fig--port">
+            <div class="fig__frame"><img data-hdrift src="/img/harvest-hands.webp" srcset="/img/harvest-hands-sm.webp 640w, /img/harvest-hands.webp 1024w" sizes="(max-width: 760px) 100vw, 40vw" alt="Hands picking ripe red coffee cherries into a woven basket" loading="lazy" /></div>
+            <figcaption><b>Fig. 04</b> Only the ripe ones. A good picker gathers somewhere between 45 and 90 kilos a day.</figcaption>
+          </figure>
+          <div class="h-panel h-quote"><p>Five kilos of cherries.<br /><em>One kilo of coffee.</em></p></div>
+          <figure class="h-panel fig h-fig h-fig--land">
+            <div class="fig__frame"><img data-hdrift src="/img/harvest-basket.webp" srcset="/img/harvest-basket-sm.webp 960w, /img/harvest-basket.webp 1536w" sizes="(max-width: 760px) 100vw, 55vw" alt="A woven basket heaped with freshly picked coffee cherries" loading="lazy" /></div>
+            <figcaption><b>Fig. 05</b> A morning&rsquo;s picking, sorted before it leaves the field.</figcaption>
+          </figure>
+          <figure class="h-panel fig h-fig h-fig--wide">
+            <div class="fig__frame"><img data-hdrift src="/img/drying.webp" srcset="/img/drying-sm.webp 960w, /img/drying.webp 1672w" sizes="(max-width: 760px) 100vw, 80vw" alt="Long rows of raised drying beds covered in coffee on a hillside farm" loading="lazy" /></div>
+            <figcaption><b>Fig. 06</b> Raised drying beds. Two to four weeks in the sun, turned by hand, until the beans hold about 11% moisture.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——— IV. PROCESS ——— -->
+    <section class="chapter process panel" id="process" data-chapter="04" data-name="The Process">
+      <img class="float f-leaf-2" data-speed="0.45" data-rot="30" src="/img/leaf.webp" alt="" loading="lazy" />
+      <div class="wrap">
+        <header class="ch-head process__head">
+          <p class="label">Chapter IV</p>
+          <h2 class="ch-title" data-split>The Process</h2>
+          <p class="ch-intro" data-rise>How the fruit comes off the seed shapes the taste in your cup more than almost anything else. There are three classic ways to do it.</p>
+        </header>
+        <div class="methods">
+          <article class="method" data-speed="0.08">
+            <figure class="fig fig--port" data-reveal><div class="fig__frame"><img data-drift src="/img/washed.webp" srcset="/img/washed-sm.webp 640w, /img/washed.webp 1024w" sizes="(max-width: 760px) 100vw, 30vw" alt="Parchment coffee rushing through a concrete washing channel" loading="lazy" /></div></figure>
+            <p class="method__num label">01</p>
+            <h3>Washed</h3>
+            <p>The fruit is pulped off, the sticky layer fermented away and the seeds washed clean before drying.</p>
+            <p class="method__notes label">Clean &middot; bright &middot; tea-like</p>
+          </article>
+          <article class="method" data-speed="-0.14">
+            <figure class="fig fig--port" data-reveal><div class="fig__frame"><img data-drift src="/img/natural.webp" srcset="/img/natural-sm.webp 640w, /img/natural.webp 1024w" sizes="(max-width: 760px) 100vw, 30vw" alt="Whole coffee cherries drying in the sun on a raised bed" loading="lazy" /></div></figure>
+            <p class="method__num label">02</p>
+            <h3>Natural</h3>
+            <p>The whole cherry dries in the sun for weeks, fruit and all, before the husk is cracked off.</p>
+            <p class="method__notes label">Fruity &middot; winey &middot; heavy body</p>
+          </article>
+          <article class="method" data-speed="0.08">
+            <figure class="fig fig--port" data-reveal><div class="fig__frame"><img data-drift src="/img/honey.webp" srcset="/img/honey-sm.webp 640w, /img/honey.webp 1024w" sizes="(max-width: 760px) 100vw, 30vw" alt="Coffee beans coated in sticky golden mucilage drying on a bed" loading="lazy" /></div></figure>
+            <p class="method__num label">03</p>
+            <h3>Honey</h3>
+            <p>The skin comes off, but the sticky, honey-like mucilage is left on to dry around the seed.</p>
+            <p class="method__notes label">Sweet &middot; round &middot; syrupy</p>
+          </article>
+        </div>
+        <p class="process__after" data-rise>Then the beans rest, the papery parchment is hulled away, and they are sorted by size and density and packed into jute sacks for the long voyage to a roaster.</p>
+      </div>
+    </section>
+
+    <!-- ——— V. ROAST ——— -->
+    <section class="chapter roast" id="roast" data-chapter="05" data-name="The Roast">
+      <div class="roast__pin">
+        <div class="roast__stage">
+          <div class="roast__frames">
+            <img class="roast__frame is-on" src="/img/roast-0.webp" srcset="/img/roast-0-sm.webp 960w, /img/roast-0.webp 1672w" sizes="100vw" alt="Raw green coffee beans" loading="lazy" />
+            <img class="roast__frame" src="/img/roast-1.webp" srcset="/img/roast-1-sm.webp 960w, /img/roast-1.webp 1672w" sizes="100vw" alt="Light roasted coffee beans" loading="lazy" />
+            <img class="roast__frame" src="/img/roast-2.webp" srcset="/img/roast-2-sm.webp 960w, /img/roast-2.webp 1672w" sizes="100vw" alt="Medium roasted coffee beans" loading="lazy" />
+            <img class="roast__frame" src="/img/roast-3.webp" srcset="/img/roast-3-sm.webp 960w, /img/roast-3.webp 1672w" sizes="100vw" alt="Dark roasted coffee beans" loading="lazy" />
+          </div>
+          <div class="roast__ui wrap">
+            <header class="roast__head">
+              <p class="label">Chapter V</p>
+              <h2 class="ch-title">The Roast</h2>
+              <p class="ch-intro">Heat turns a hard, grassy seed into something worth drinking. In around twelve minutes, hundreds of new aroma compounds are born.</p>
+            </header>
+            <div class="roast__readout">
+              <p class="roast__temp"><span data-temp>20</span><sup>&deg;C</sup></p>
+              <div class="roast__stages">
+                <div class="roast__stage-copy is-on"><h3>Green</h3><p>Raw and dense. It smells of hay and fresh peas.</p></div>
+                <div class="roast__stage-copy"><h3>Light</h3><p>Just past first crack. Floral, bright, tea-like acidity.</p></div>
+                <div class="roast__stage-copy"><h3>Medium</h3><p>Sugars caramelise. Chocolate, nuts, a balanced sweetness.</p></div>
+                <div class="roast__stage-copy"><h3>Dark</h3><p>Past second crack. Oils rise; bittersweet and smoky.</p></div>
+              </div>
+            </div>
+            <div class="roast__bar" aria-hidden="true">
+              <div class="roast__track"><i data-roast-fill></i></div>
+              <div class="roast__ticks"><span>Green</span><span>Light</span><span>Medium</span><span>Dark</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="roaster wrap">
+        <figure class="fig fig--wide" data-reveal>
+          <div class="fig__frame"><img data-drift src="/img/roaster.webp" srcset="/img/roaster-sm.webp 960w, /img/roaster.webp 1672w" sizes="100vw" alt="Freshly roasted coffee pouring from a drum roaster into a cooling tray" loading="lazy" /></div>
+          <figcaption><b>Fig. 07</b> Dropping a batch into the cooling tray. Cooling it fast locks the roast in place.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ——— VI. BREW ——— -->
+    <section class="chapter brew panel" id="brew" data-chapter="06" data-name="The Brew">
+      <img class="float f-bean-3" data-speed="0.7" data-rot="-45" src="/img/bean.webp" alt="" loading="lazy" />
+      <div class="wrap grid">
+        <div class="brew__media">
+          <figure class="fig fig--port" data-reveal>
+            <div class="fig__frame"><img data-drift src="/img/pour.webp" srcset="/img/pour-sm.webp 640w, /img/pour.webp 1024w" sizes="(max-width: 760px) 100vw, 45vw" alt="A gooseneck kettle pouring water over a pour-over dripper" loading="lazy" /></div>
+            <figcaption><b>Fig. 08</b> The bloom. Fresh coffee releases carbon dioxide the moment water touches it.</figcaption>
+          </figure>
+        </div>
+        <div class="brew__text">
+          <header class="ch-head">
+            <p class="label">Chapter VI</p>
+            <h2 class="ch-title" data-split>The Brew</h2>
+            <p class="ch-intro" data-rise>Years of sun, rain and careful hands, and it all comes down to the next three minutes.</p>
+          </header>
+          <div class="recipe" data-rise>
+            <p class="label recipe__title">A pour-over for today</p>
+            <dl class="recipe__specs">
+              <div><dt>Coffee</dt><dd>15 g</dd></div>
+              <div><dt>Water</dt><dd>250 g</dd></div>
+              <div><dt>Temp</dt><dd>94&deg;C</dd></div>
+              <div><dt>Grind</dt><dd>Medium-fine</dd></div>
+            </dl>
+            <ol class="recipe__steps">
+              <li><time>Prep</time><p>Rinse the paper filter with hot water and discard it. Add freshly ground coffee and level the bed.</p></li>
+              <li><time>0:00</time><p>Bloom. Pour about 45 g of water, just enough to wet all the grounds, and wait.</p></li>
+              <li><time>0:45</time><p>Pour slowly in small circles up to 150 g.</p></li>
+              <li><time>1:30</time><p>Continue to 250 g, keeping the bed flat and the stream gentle.</p></li>
+              <li><time>3:00</time><p>Let it drain, swirl, pour. Give it a minute to cool before the first sip.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ——— FINALE ——— -->
+    <section class="finale" id="finale" data-chapter="06" data-name="The Brew">
+      <div class="finale__stage">
+        <img class="finale__img" src="/img/cup.webp" srcset="/img/cup-sm.webp 960w, /img/cup.webp 1672w" sizes="100vw" alt="A stoneware cup of black coffee on an oak table in morning light" loading="lazy" />
+        <div class="finale__shade"></div>
+        <div class="finale__copy wrap">
+          <p class="label">29 &middot; 09 &middot; 2026</p>
+          <h2 class="finale__title">Happy National <em>Coffee</em> Day.</h2>
+          <p class="finale__body">From a seed on a misty hillside to the cup in your hands. Pour something good today, and spare a thought for where it came from.</p>
+          <div class="finale__actions">
+            <button class="btn btn--solid" id="share" type="button">Share this journal</button>
+            <a class="btn btn--line" href="#top" data-goto="#top">Read it again <span aria-hidden="true">&uarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p class="footer__mark">Seed <em>to</em> Cup</p>
+      <div class="footer__cols">
+        <nav aria-label="Chapters">
+          <p class="label">Chapters</p>
+          <ol>
+            <li><a href="#seed" data-goto="#seed">I. The Seed</a></li>
+            <li><a href="#tree" data-goto="#tree">II. The Tree</a></li>
+            <li><a href="#harvest" data-goto="#harvest">III. The Harvest</a></li>
+            <li><a href="#process" data-goto="#process">IV. The Process</a></li>
+            <li><a href="#roast" data-goto="#roast">V. The Roast</a></li>
+            <li><a href="#brew" data-goto="#brew">VI. The Brew</a></li>
+          </ol>
+        </nav>
+        <div>
+          <p class="label">Colophon</p>
+          <p>Photography generated with Codex CLI. Set in Instrument Serif, Inter Tight and IBM Plex Mono. Motion by GSAP and Lenis.</p>
+        </div>
+        <div>
+          <p class="label">The date</p>
+          <p>National Coffee Day is 29 September in the United States. International Coffee Day follows on 1 October, so keep the kettle on.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
