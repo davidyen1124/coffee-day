@@ -13,5 +13,5 @@ dist
 *.log
 
 # local generation transcripts and old website export
-/art/logs/
+/assets-src/art/logs/
 /archive/

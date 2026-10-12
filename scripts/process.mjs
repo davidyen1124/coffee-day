@@ -1,10 +1,10 @@
-// Converts art/raw/*.png into responsive WebP files in public/img.
+// Converts assets-src/art/raw/*.png into responsive WebP files in public/img.
 // usage: node scripts/process.mjs [name ...]
 import sharp from 'sharp'
 import fs from 'node:fs'
 import path from 'node:path'
 
-const RAW = 'art/raw'
+const RAW = 'assets-src/art/raw'
 const OUT = 'public/img'
 fs.mkdirSync(OUT, { recursive: true })
 
